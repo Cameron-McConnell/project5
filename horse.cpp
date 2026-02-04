@@ -2,7 +2,12 @@
 
 #include<string>
 #include <iostream>
-#include "Horse.h"
+#include "horse.h"
+
+Horse::Horse(){
+  Horse::position = 0;
+  Horse::id = 0;
+} // end deafault constructor
 
 Horse::Horse(int id){
   Horse::position = 0;
