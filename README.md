@@ -6,6 +6,7 @@ classDiagram
         +Horse(int id)
         +advance()
         +getPosition() int
+        +printRace()
         +hasWon(int trackLength) bool
         +print() void
     }
@@ -16,7 +17,6 @@ classDiagram
         -int trackLength
         +Race(int trackLength)
         +run()
-        +printRace()
         +hasWinner() bool
     }
 
